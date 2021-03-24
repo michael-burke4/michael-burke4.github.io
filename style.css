@@ -1,13 +1,13 @@
 body{
     background-color: #24292E;
 }
-#navbar{
+nav{
     background-color:#1F2428;
     display:grid;
     grid-template-columns: 125px .25fr 1fr;
     font-family: 'Montserrat', sans-serif;
 }
-#navbar #logo{
+nav #logo{
     background-color: #23D18B;
     font-size:50px;
     width:fit-content;
@@ -18,14 +18,14 @@ body{
     padding-right:20px;
     
 }
-#navbar ul{
+nav ul{
     margin-top: 25px;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-items: center;
 }
-#navbar a{
+nav a{
     text-align:center;
     /* background-color: ; */
     text-decoration: none;
@@ -39,6 +39,6 @@ body{
 
     
 }
-#navbar a:hover{
+nav a:hover{
     background-color:#F9826C;
 }
