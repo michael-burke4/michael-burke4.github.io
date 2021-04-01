@@ -52,7 +52,6 @@ body{
     transition:.3s;
     width:max-content;
     border-radius:20px;
-    
 }
 .nav a:hover{
     background-color:#F9826C;
@@ -62,6 +61,7 @@ body{
     margin-top:1rem;
     color:#E1E4E8;
     font-family: 'Montserrat', sans-serif;
-    padding:5px;
+    padding:10px;
+    padding-top:5px;
     line-height:1.4rem;
 }
