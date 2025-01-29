@@ -1,3 +1,9 @@
 h1 {
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
     color: red;
+}
+
+html {
+    font-family: "Besley", serif;
 }
